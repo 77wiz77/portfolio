@@ -10,7 +10,7 @@ const MySkills = () => {
         <div className={styles.skills_right}>
           <ul>
             <li>
-              <sup>1</sup> &nbsp; HTML5 / CSS3
+              <sup>1</sup> &nbsp; HTML5 / CSS3 Modules / SASS/SCSS Modules
             </li>
             <li>
               <sup>2</sup> &nbsp; JavaScript / TypeScript
