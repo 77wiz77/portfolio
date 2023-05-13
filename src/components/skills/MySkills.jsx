@@ -10,25 +10,28 @@ const MySkills = () => {
         <div className={styles.skills_right}>
           <ul>
             <li>
-              <sup>1</sup> &nbsp; HTML5 / CSS3 Modules / SASS/SCSS Modules
+              <sup>1</sup> &nbsp; HTML5 / CSS3 Modules
             </li>
             <li>
-              <sup>2</sup> &nbsp; JavaScript / TypeScript
+              <sup>2</sup> &nbsp; SASS/SCSS Modules / StyledComponents
             </li>
             <li>
-              <sup>3</sup> &nbsp; React
+              <sup>3</sup> &nbsp; JavaScript / TypeScript
             </li>
             <li>
-              <sup>4</sup> &nbsp; Redux / MobX / Recoil
+              <sup>4</sup> &nbsp; React
             </li>
             <li>
-              <sup>5</sup> &nbsp; MUI
+              <sup>5</sup> &nbsp; Redux / MobX / Recoil
             </li>
             <li>
-              <sup>6</sup> &nbsp; React-Router-Dom
+              <sup>6</sup> &nbsp; MUI
             </li>
             <li>
-              <sup>7</sup> &nbsp; Axios
+              <sup>7</sup> &nbsp; React-Router-Dom
+            </li>
+            <li>
+              <sup>8</sup> &nbsp; Axios
             </li>
           </ul>
         </div>
