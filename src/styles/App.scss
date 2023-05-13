@@ -1,0 +1,81 @@
+// :root[data-theme='light'] {
+:root {
+  // base
+  --font-family: 'Montserrat', 'Arial', 'Helvetica', sans-serif;
+  --content-width: 1170px;
+  --container-offset: 32px;
+  --container-offset-minus: -32px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+  // --container-width: calc(100% - var(--container-offset) * 2);
+  --offset: 32px;
+
+  // font sizes
+  --font-size-main: 16px; //p
+  --font-size-logo: 24px; //logo
+  --font-size-second: 14px; //sub
+  --font-size-banner: 44px; //h1
+  --font-size-title: 28px; //h2
+
+  //font weight
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --font-weight-semibold: 600;
+  --font-weight-thin: 100;
+
+  //colors background
+  --background-main: rgb(247, 247, 247);
+  --background-secondary: rgb(255, 255, 255);
+
+  //color btn
+  --btn-background-color: rgb(24, 209, 113);
+  --btn-text-color: rgb(255, 255, 255);
+  --btn-hover-background-color: rgb(255, 255, 255);
+  --btn-hover-text-color: rgb(24, 209, 113);
+  --btn-focus-background-color: rgb(113, 113, 113);
+  --btn-focus-text-color: rgb(255, 255, 255);
+  --btn-active-background-color: rgb(0, 0, 0);
+  --btn-active-text-color: rgb(255, 255, 255);
+
+  //color card
+  --card-background-color: rgb(24, 209, 113);
+  --card-text-color: rgb(255, 255, 255);
+  --card-hover-background-color: rgb(255, 255, 255);
+  --card-hover-text-color: rgb(24, 209, 113);
+  --card-focus-background-color: rgb(113, 113, 113);
+  --card-focus-text-color: rgb(255, 255, 255);
+  --card-active-background-color: rgb(0, 0, 0);
+  --card-active-text-color: rgb(255, 255, 255);
+
+  // colors <a></a> click
+  --hover-color: rgb(24, 209, 113);
+  --focus-color: rgb(39, 69, 240);
+  --active-color: rgb(113, 113, 113);
+
+  //text colors
+  --text-color: rgb(138, 138, 138);
+  --text-color-black: rgb(0, 0, 0);
+
+  //checkbox colors
+  --checkbox-hover-border: rgb(24, 209, 113);
+  --checkbox-hover-background: rgb(255, 255, 255);
+  --checkbox-focus-border: rgb(24, 209, 113);
+  --checkbox-focus-background: rgb(255, 255, 255);
+  --checkbox-active-border: rgb(133, 253, 191);
+  --checkbox-active-background: rgb(133, 253, 191);
+  --checkbox-checked-border: rgb(24, 209, 113);
+  --checkbox-checked-background: rgb(24, 209, 113);
+  --checkbox-disabled-border: rgb(138, 138, 138);
+  --checkbox-disabled-background: rgb(255, 255, 255);
+
+  //input colors
+  --input-border: rgb(138, 138, 138);
+  --input-background: rgb(243, 243, 243);
+  --input-hover-border: rgb(24, 209, 113);
+  --input-hover-background: rgb(255, 255, 255);
+  --input-disabled-border: rgb(138, 138, 138);
+  --input-disabled-background: rgb(255, 255, 255);
+  --input-focus-border: rgb(24, 209, 113);
+  --input-focus-background: rgb(255, 255, 255);
+  --input-active-border: rgb(133, 253, 191);
+  --input-active-background: rgb(133, 253, 191);
+}

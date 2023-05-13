@@ -1,0 +1,43 @@
+.container {
+  @include flex(column, nowrap, center, center);
+  padding: 0 var(--container-offset);
+  background-color: var(--background-secondary);
+  width: 100%;
+}
+
+.footer {
+  max-width: 1170px;
+  width: 100%;
+  padding: 60px 0;
+  @include flex(row, nowrap, flex-end, center);
+  @include small-tablet {
+    @include flex(column, nowrap, center, center);
+    font-size: var(--font-size-second);
+  }
+}
+
+ul {
+  li {
+    padding-left: 10px;
+    @include small-tablet {
+      padding-bottom: 10px;
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color-black);
+  cursor: pointer;
+  &:hover {
+    color: var(--btn-hover-text-color);
+    transition: all 0.1s ease-in-out;
+  }
+  &:focus {
+    color: var(--btn-focus-text-color);
+  }
+  &:active {
+    color: var(--btn-active-text-color);
+    transition: all 0.1s ease-in-out;
+  }
+}

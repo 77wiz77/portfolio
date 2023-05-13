@@ -1,0 +1,40 @@
+.container {
+  @include flex(column, nowrap, center, center);
+  padding: 0 var(--container-offset);
+  background-color: var(--background-main);
+  width: 100%;
+}
+
+.skills {
+  @include flex(row, nowrap, flex-start, flex-start);
+  @include mobile {
+    @include flex(column);
+  }
+  padding: 100px 0;
+  max-width: 1170px;
+  width: 100%;
+  &_left {
+    @include flex(column, nowrap, flex-start, flex-start);
+    width: 50%;
+    @include mobile {
+      width: 100%;
+    }
+  }
+  &_right {
+    @include flex(column, nowrap, flex-start, flex_start);
+    width: 50%;
+    @include mobile {
+      width: 100%;
+    }
+    ul {
+      li {
+        font-size: var(--font-size-main);
+        color: var(--text-color);
+        padding-bottom: 24px;
+        @include mobile {
+          font-size: calc(var(--font-size-main) + 6px);
+        }
+      }
+    }
+  }
+}

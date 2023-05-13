@@ -1,0 +1,27 @@
+@mixin grid(
+  $rows: null,
+  $columns: null,
+  $gap: null,
+  $row-gap: null,
+  $column-gap: null,
+  $margin-left: null,
+  $margin-right: null
+) {
+  display: grid;
+  gap: $gap;
+  row-gap: $row-gap;
+  column-gap: $column-gap;
+  grid-template-rows: $rows;
+  grid-template-columns: $columns;
+  margin-left: $margin-left;
+  margin-right: $margin-right;
+}
+
+/*If you only want rows
+@include grid(repeat(2, 1fr));
+
+If you want rows and columns
+@include grid(repeat(2, 1fr), repeat(3, 1fr));
+
+If you want columns but not row same goes with gap, row-gap or column-gap
+@include grid($columns: repeat(3, 1fr));*/

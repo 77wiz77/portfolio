@@ -1,0 +1,32 @@
+.myBtn {
+  padding: 15px 40px;
+  font-size: var(--font-size-main);
+  color: var(--btn-text-color);
+  background-color: var(--btn-background-color);
+  border: 1px solid white;
+  border-radius: 30px;
+  cursor: pointer;
+  &:hover {
+    background-color: var(--btn-hover-background-color);
+    color: var(--btn-hover-text-color);
+    border: 1px solid var(--btn-hover-text-color);
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+  }
+  &:focus {
+    background-color: var(--btn-focus-background-color);
+    color: var(--btn-focus-text-color);
+    border: 1px solid var(--btn-focus-text-color);
+    border-radius: 30px;
+  }
+  &:active {
+    background-color: var(--btn-active-background-color);
+    color: var(--btn-active-text-color);
+    border: 1px solid var(--btn-active-text-color);
+    border-radius: 30px;
+    transition: all 0.1s ease-in-out;
+  }
+  @include mobile {
+    width: 100%;
+  }
+}

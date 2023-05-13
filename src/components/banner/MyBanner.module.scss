@@ -1,0 +1,54 @@
+.container {
+  @include flex(column, nowrap, center, center);
+  padding: 0 var(--container-offset);
+  background-color: var(--background-main);
+  width: 100%;
+}
+
+.banner {
+  max-width: 1170px;
+  width: 100%;
+  padding: 100px 0;
+  @include flex(row, nowrap, space-between, center);
+  &__info {
+    width: 50%;
+    @include flex(column, nowrap, center, start);
+    @include mobile() {
+      display: flex;
+      width: 100%;
+    }
+  }
+  &__illustration {
+    width: 50%;
+    @include mobile() {
+      display: none;
+    }
+    @include flex(column, nowrap, center, end);
+    img {
+      width: 90%;
+      height: 100%;
+      animation: img_animate 5s infinite ease-in-out;
+      @include small-tablet {
+        width: 90%;
+        height: 90%;
+      }
+      @keyframes img_animate {
+        0% {
+          transform: translateY(15px);
+        }
+        25% {
+          transform: translateY(-15px);
+        }
+        50% {
+          transform: translateY(15px);
+        }
+        75% {
+          transform: translateY(-15px);
+        }
+        100% {
+          transform: translateY(15px);
+        }
+      }
+    }
+  }
+}

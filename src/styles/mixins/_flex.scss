@@ -1,0 +1,38 @@
+@mixin flex(
+  $flex-direction: row,
+  $flex-wrap: nowrap,
+  $justify-content: center,
+  $align-items: center,
+  $width: null,
+  $height: null
+) {
+  display: flex;
+  flex-direction: $flex-direction;
+  flex-wrap: $flex-wrap;
+  justify-content: $justify-content;
+  align-items: $align-items;
+  width: $width;
+  height: $height;
+}
+
+@mixin flex_grid(
+  $flex-direction: row,
+  $flex-wrap: nowrap,
+  $justify-content: center,
+  $align-items: center
+) {
+  display: flex;
+  flex-direction: $flex-direction;
+  flex-wrap: $flex-wrap;
+  justify-content: $justify-content;
+  align-items: $align-items;
+}
+
+/*If you only want rows
+@include grid(repeat(2, 1fr));
+
+If you want rows and columns
+@include grid(repeat(2, 1fr), repeat(3, 1fr));
+
+If you want columns but not row same goes with gap, row-gap or column-gap
+@include grid($columns: repeat(3, 1fr));*/

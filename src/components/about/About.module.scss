@@ -1,0 +1,29 @@
+.container {
+  @include flex(column, nowrap, center, center);
+  padding: 0 var(--container-offset);
+  background-color: var(--background-secondary);
+  width: 100%;
+}
+
+.about {
+  padding: 100px 0;
+  max-width: 1170px;
+  @include flex(row, nowrap, flex-start, flex-start);
+  @include small-tablet {
+    @include flex(column);
+  }
+  &_left {
+    @include flex(row, nowrap, flex-start, flex-start);
+    width: 50%;
+    @include small-tablet {
+      width: 100%;
+    }
+  }
+  &_right {
+    @include flex(row, nowrap, flex-start, flex-start);
+    width: 50%;
+    @include small-tablet {
+      width: 100%;
+    }
+  }
+}

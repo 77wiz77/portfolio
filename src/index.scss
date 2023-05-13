@@ -1,0 +1,47 @@
+@include font-face(Montserrat, Montserrat-Regular, 400, normal);
+@include font-face(Montserrat, Montserrat-Bold, 700, normal);
+@include font-face(Montserrat, Montserrat-SemiBold, 600, normal);
+@include font-face(Montserrat, Montserrat-Thin, 100, normal);
+
+// @font-face {
+//   font-family: 'Montserrat';
+//   src: local('Montserrat'),
+//     url('./fonts/Montserrat-Regular.ttf') format('truetype');
+//   font-weight: 400;
+// }
+
+// @font-face {
+//   font-family: 'Montserrat';
+//   src: local('Montserrat'),
+//     url('./fonts/Montserrat-Bold.ttf') format('truetype');
+//   font-weight: 700;
+// }
+
+// @font-face {
+//   font-family: 'Montserrat';
+//   src: local('Montserrat'),
+//     url('./fonts/Montserrat-SemiBold.ttf') format('truetype');
+//   font-weight: 600;
+// }
+
+// @font-face {
+//   font-family: 'Montserrat';
+//   src: local('Montserrat'),
+//     url('./fonts/Montserrat-Thin.ttf') format('truetype');
+//   font-weight: 100;
+// }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+  font-size: var(--font-size-main);
+  font-weight: var(--font-weight-regular);
+  scroll-behavior: smooth;
+  // scroll-margin-top: 68px;
+}
+
+.flex {
+  @include flex(column, nowrap, center, center);
+}
