@@ -31,6 +31,8 @@
     border: 1px solid var(--card-background-color);
     border-radius: 30px;
     margin-bottom: 30px;
+    transition: transform 500ms ease, border 500ms ease,
+      background-color 500ms ease;
     cursor: pointer;
     @include tablet {
       padding: 15px;
@@ -51,19 +53,16 @@
       background-color: var(--card-hover-background-color);
       border: 1px solid var(--card-hover-text-color);
       transform: scale(1.1);
-      transition: all 0.5s ease-in-out;
     }
     &:focus {
       background-color: var(--card-focus-background-color);
       border: 1px solid var(--card-focus-text-color);
       transform: scale(1.1);
-      transition: all 0.1s ease-in-out;
     }
     &:active {
       background-color: var(--card-active-background-color);
       border: 1px solid var(--card-active-text-color);
       transform: scale(1.1);
-      transition: all 0.1s ease-in-out;
     }
   }
 }
