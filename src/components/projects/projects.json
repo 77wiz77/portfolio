@@ -2,22 +2,14 @@
   "nodes": [
     {
       "id": 0,
-      "name": "Сайт-лендинг для выставки картин",
-      "text": "HTML, SASS/CSS, JS, Figma",
-      "img": "assets/projectsPreview/artist.png",
+      "name": "Веб-сайт с информацией по state-managers",
+      "text": "React, TS, Redux/MobX/Recoil, SASS, React-router, MUI-React",
+      "img": "assets/projectsPreview/state.png",
       "alt": "Project preview",
-      "link": "https://77wiz77.github.io/exhibition-of-artists/"
+      "link": "https://77wiz77.github.io/choose-state-managers/"
     },
     {
       "id": 1,
-      "name": "Сайт-лендинг для food market",
-      "text": "HTML, SASS/CSS, JS, Figma",
-      "img": "assets/projectsPreview/food.png",
-      "alt": "Project preview",
-      "link": "https://77wiz77.github.io/food-market/"
-    },
-    {
-      "id": 2,
       "name": "Пет-проект",
       "text": "React, JS, React-Context, CSS modules, Axios, React-Hooks, React-Router-Dom, React-Transition-Group",
       "img": "assets/projectsPreview/news.png",
@@ -25,12 +17,20 @@
       "link": "https://77wiz77.github.io/news/#/login"
     },
     {
-      "id": 3,
-      "name": "Веб-сайт с информацией по state-managers",
-      "text": "React, TS, Redux/MobX/Recoil, SASS, React-router, MUI-React",
-      "img": "assets/projectsPreview/state.png",
+      "id": 2,
+      "name": "Сайт-лендинг для food market",
+      "text": "HTML, SASS/CSS, JS, Figma",
+      "img": "assets/projectsPreview/food.png",
       "alt": "Project preview",
-      "link": "https://77wiz77.github.io/choose-state-managers/"
+      "link": "https://77wiz77.github.io/food-market/"
+    },
+    {
+      "id": 3,
+      "name": "Сайт-лендинг для выставки картин",
+      "text": "HTML, SASS/CSS, JS, Figma",
+      "img": "assets/projectsPreview/artist.png",
+      "alt": "Project preview",
+      "link": "https://77wiz77.github.io/exhibition-of-artists/"
     }
   ]
 }
