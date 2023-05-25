@@ -4,12 +4,12 @@ import data from './projects.json';
 
 const MyProjects = () => {
   const firstHalf = (value) => {
-    if (value.id <= 1) {
+    if (value.id <= 2) {
       return true;
     }
   };
   const secondHalf = (value) => {
-    if (value.id > 1) {
+    if (value.id > 2) {
       return true;
     }
   };
@@ -29,6 +29,7 @@ const MyProjects = () => {
                 img={project.img}
                 alt={project.alt}
                 link={project.link}
+                code={project.code}
               />
             ))}
           </div>
@@ -44,6 +45,7 @@ const MyProjects = () => {
                 img={project.img}
                 alt={project.alt}
                 link={project.link}
+                code={project.code}
               />
             ))}
           </div>

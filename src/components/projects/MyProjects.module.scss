@@ -10,11 +10,11 @@
     padding-top: 100px;
   }
   &__line {
-    height: 1100px;
+    height: 1700px;
     width: 2px;
     background-color: var(--text-color);
     @include tablet {
-      height: 750px;
+      height: 1140px;
     }
     @include small-tablet {
       display: none;

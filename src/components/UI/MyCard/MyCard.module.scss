@@ -14,6 +14,27 @@
   &__title {
     text-align: center;
     width: 250px;
+    margin-bottom: 5px;
+    @include small-tablet {
+      width: 100%;
+    }
+  }
+  &__code {
+    text-align: center;
+    width: 250px;
+    margin-bottom: 20px;
+    a {
+      border-bottom: 1px solid black;
+      &:hover {
+        border-bottom: 1px solid var(--hover-color);
+      }
+      &:focus {
+        border: 1px solid var(--focus-color);
+      }
+      &:active {
+        border: 1px solid var(--active-color);
+      }
+    }
     @include small-tablet {
       width: 100%;
     }

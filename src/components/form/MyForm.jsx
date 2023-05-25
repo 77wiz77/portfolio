@@ -26,7 +26,7 @@ const MyForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const isFormValid = true; // Replace with your form validation logic
+    const isFormValid = true;
     if (isFormValid) {
       fetch(
         'https://send.pageclip.co/o8X7lePVhEG17YAB0uphzbMIhVWU5BxT/portfolio-form',
@@ -106,6 +106,7 @@ const MyForm = () => {
               className={styles.form__image}
               src='assets/form.svg'
               alt='form-illustration'
+              loading='lazy'
             />
           </div>
         </div>

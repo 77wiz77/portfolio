@@ -51,4 +51,21 @@
       }
     }
   }
+  &__text {
+    margin-bottom: 20px;
+  }
+  &__social {
+    display: none;
+    @include small-tablet {
+      display: flex;
+    }
+    & > li:first-child {
+      padding-left: 0px;
+    }
+  }
+}
+
+.social__icon {
+  width: 40px;
+  height: 40px;
 }

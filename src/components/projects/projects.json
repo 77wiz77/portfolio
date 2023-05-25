@@ -6,31 +6,44 @@
       "text": "React, TS, Redux/MobX/Recoil, SASS, React-router, MUI-React",
       "img": "assets/projectsPreview/state.png",
       "alt": "Project preview",
-      "link": "https://77wiz77.github.io/choose-state-managers/"
+      "link": "https://77wiz77.github.io/choose-state-managers/",
+      "code": "https://github.com/77wiz77/choose-state-managers"
     },
     {
       "id": 1,
-      "name": "Пет-проект",
-      "text": "React, JS, React-Context, CSS modules, Axios, React-Hooks, React-Router-Dom, React-Transition-Group",
-      "img": "assets/projectsPreview/news.png",
+      "name": "Мой сайт-портфолио (Вы сейчас тут)",
+      "text": "React, JS, SCSS Modules",
+      "img": "assets/projectsPreview/portfolio.png",
       "alt": "Project preview",
-      "link": "https://77wiz77.github.io/news/#/login"
+      "link": "77wiz77.github.io/portfolio/",
+      "code": "https://github.com/77wiz77/portfolio"
     },
     {
       "id": 2,
-      "name": "Сайт-лендинг для food market",
-      "text": "HTML, SASS/CSS, JS, Figma",
-      "img": "assets/projectsPreview/food.png",
-      "alt": "Project preview",
-      "link": "https://77wiz77.github.io/food-market/"
-    },
-    {
-      "id": 3,
       "name": "Сайт-лендинг для выставки картин",
       "text": "HTML, SASS/CSS, JS, Figma",
       "img": "assets/projectsPreview/artist.png",
       "alt": "Project preview",
-      "link": "https://77wiz77.github.io/exhibition-of-artists/"
+      "link": "https://77wiz77.github.io/exhibition-of-artists/",
+      "code": "https://github.com/77wiz77/exhibition-of-artists"
+    },
+    {
+      "id": 3,
+      "name": "Пет-проект",
+      "text": "React, JS, React-Context, CSS modules, Axios, React-Hooks, React-Router-Dom, React-Transition-Group",
+      "img": "assets/projectsPreview/news.png",
+      "alt": "Project preview",
+      "link": "https://77wiz77.github.io/news/#/login",
+      "code": "https://github.com/77wiz77/news"
+    },
+    {
+      "id": 4,
+      "name": "Сайт-лендинг для food market",
+      "text": "HTML, SASS/CSS, JS, Figma",
+      "img": "assets/projectsPreview/food.png",
+      "alt": "Project preview",
+      "link": "https://77wiz77.github.io/food-market/",
+      "code": "https://github.com/77wiz77/food-market"
     }
   ]
 }
